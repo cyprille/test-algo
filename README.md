@@ -25,7 +25,7 @@ Do not hesitate to take into account borderline cases and situations where sever
 npm install
 ```
 ```bash
-run install
+yarn install
 ```
 
 ## Usage
