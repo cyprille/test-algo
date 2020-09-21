@@ -2,7 +2,7 @@
 
 ## Introduction
 
-This repo is used as a solution for an algorithmic test in JavaScript.
+This repo is used as a solution example for an algorithmic test in JavaScript.
 
 ## Subject
 
