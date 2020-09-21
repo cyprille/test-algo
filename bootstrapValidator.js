@@ -14,13 +14,13 @@ function validate(mainString, N) {
         throw Error('Missing Parameter N for substring length as 2nd argument');
     }
 
-    let isMainStringOnlyDigit = /^\d+$/.test(mainString);
+    const isMainStringOnlyDigit = /^\d+$/.test(mainString);
 
     if (!isMainStringOnlyDigit) {
         throw Error('Main string must be a string with only numbers');
     }
 
-    let isNOnlyDigit = /^\d+$/.test(N);
+    const isNOnlyDigit = /^\d+$/.test(N);
 
     if (!isNOnlyDigit) {
         throw Error('N parameter must be a string with only numbers');
@@ -28,7 +28,7 @@ function validate(mainString, N) {
 }
 
 // exports below for testing purposes.
-let __validate = validate;
+const __validate = validate;
 
 module.exports = {
     validate,
