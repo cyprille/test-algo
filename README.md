@@ -35,6 +35,20 @@ To launch the calculation, use
 node index.js <string to test> <number of digits>
 ```
 
+Example:
+```bash
+node index.js 1127839561 5
+```
+Will produce:
+```bash
+Starting process
+----------------------------------------
+Result: 7560
+Substring: 78395
+----------------------------------------
+Process ended, calculation done
+```
+
 ## Tests
 
 To launch the tests, use
