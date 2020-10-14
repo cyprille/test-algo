@@ -1,4 +1,3 @@
-import { exit } from 'process';
 import * as calculator from './calculator';
 
 // Retrieves input arguments
