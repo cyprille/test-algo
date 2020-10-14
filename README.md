@@ -19,41 +19,38 @@ For the same string with ```n=3```, the biggest product will be ```270``` (```9 
 It is not necessary to have the digits of the substring numerically consecutive; but just that the numbers are adjacent in the starting string. 
 Do not hesitate to take into account borderline cases and situations where several sub-chains lead to the same product.
 
+## Pre-requisite
+
+- npm
+- ts-node
+
 ## Installation
 
 ```bash
 npm install
-```
-```bash
-yarn install
 ```
 
 ## Usage
 
 To launch the calculation, use 
 ```bash
-node index.js <string to test> <number of digits>
+ts-node src/index.ts <string-to-test> <number-of-digits>
 ```
 
 Example:
 ```bash
-node index.js 1127839561 5
+ts-node src/index.ts 1127839561 5
 ```
 Will produce:
 ```bash
-Starting process
-----------------------------------------
-Result: 7560
-Substring: 78395
-----------------------------------------
-Process ended, calculation done
+7560
 ```
 
 ## Tests
 
 To launch the tests, use
  ```bash
- yarn test
+ npx jest
  ```
 
 ## About
