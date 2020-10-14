@@ -1,4 +1,4 @@
-# Test Algo
+# Test JavaScript Algorithm
 
 ## Introduction
 
